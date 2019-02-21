@@ -1,0 +1,75 @@
+body {
+  font-family: 'M PLUS Rounded 1c','Varela Round', 'Open Sans';
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.container  {
+  border-top: 30px solid #04aeee;
+  border-bottom: 30px solid #04aeee;
+  border-left: 5px solid #04aeee;
+  border-right: 5px solid #04aeee;
+  border-radius: 5px;
+  width: fit-content;
+  width: -moz-fit-content;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  background-image:url("../img/background.jpg");
+  background-size: 300px;
+}
+
+h1  {
+  letter-spacing: 5px;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+#register-redirect, #login-redirect  {
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 7px;
+  letter-spacing: normal;
+  font-size: 12px;
+}
+
+.form-input-attr > label  {
+  margin-right: 10px;
+}
+
+.form-input-attr  {
+  color: #262626;
+  text-align: right;
+  margin-bottom: 7px;
+}
+
+.form-input-attr-login > label  {
+  margin-right: 10px;
+}
+
+.form-input-attr-login  {
+  color: #262626;
+  margin-right: 30px;
+  margin-left: 30px;
+  text-align: right;
+  margin-bottom: 7px;
+}
+
+
+#login-button > input, #register-button > input {
+  color: orangered;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 550;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  padding: 5px;
+  background-color: white;
+}
+
+textarea  {
+  vertical-align: text-top;
+}

@@ -1,0 +1,37 @@
+form.bloksearch input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 100%;
+    background: #f1f1f1;
+}
+
+form.bloksearch button {
+    float: right;
+    right: 51%;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+form.bloksearch button:hover {
+    background: #0b7dda;
+}
+
+form.bloksearch::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title{
+    font-family: 'Dosis', sans-serif;
+}
+

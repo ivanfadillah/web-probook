@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Varela Round', 'Open Sans';
+  font-size: 12px;
+  letter-spacing: 0px;
+}
+
+h1 {
+  color:	#FF8C00;
+  font-size: 35pt;
+  margin: 0;
+}
+
+.frame {
+  width: 	45%;
+  margin: 	auto;
+  position: relative;
+}
+
+.container  {
+  padding: 20px;
+  padding-top: 50px;
+}

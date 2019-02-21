@@ -1,0 +1,144 @@
+img	{
+	width: 80%;
+}
+
+.rate {
+	font-family: calibri;
+	margin-right:20px;
+}
+.image-rating > img {
+	width: 100px;
+	object-fit: contain;
+	display: block;
+	height: 100px;
+	position: absolute;	
+	right: 50px;
+	margin-right: -40px;
+}
+
+.imagerev {
+	float: right;
+	width: 100px;
+	height:100px;
+}
+
+.ratingrev{
+	margin-right:10px;
+	font-family:calibri;
+	font-size:11pt;
+}
+
+.flex-container {
+  display: flex;
+}
+
+form  {
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#order-button {
+  text-align: right;
+}
+
+.judul-order, .judul-review	{
+	font-size: 30px;
+	color:darkblue;
+	margin-bottom: 10px;
+}
+
+.description  {
+  text-align: left;
+}
+
+.image-rating  {
+  text-align: right;
+}
+
+td {
+	text-align: left;
+}
+
+.desc  {
+  margin: 0;
+  margin-top: 20px;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+
+.message-header	{
+	font-weight: 600;
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+.message-content	{
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+.img-success	{
+	width: 20%;
+}
+
+.image-success > img	{
+	width: 70%;
+}
+
+.flex-message {
+	display: flex;
+}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	border: 1px solid #888;
+	width: 25%;
+	top: 180px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-top: 35px;
+	border-radius: 2px;
+	position: relative;
+}
+
+.close {
+	color: #aaaaaa;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: right;
+	position: absolute;
+	right: 10px;
+	top: 0px;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+.rating{
+	margin-right: 2px;
+}
+
+.star_png {
+	width: 75px;
+	object-fit: contain;
+	display: block;
+	height: 20px;
+}

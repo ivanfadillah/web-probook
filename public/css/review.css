@@ -1,0 +1,142 @@
+.avatar-collumn {
+	width: 20%;
+	padding: auto;
+}
+
+.avatar {
+	border: solid black 1px;
+	width: 90%;
+	height: 90%;
+	margin: 5%;
+}
+
+.title-review {
+	font-size: 36pt;
+	font-family: calibri;
+	color: rgb(242,102,0);
+	margin-bottom: 12px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    float: right;
+    vertical-align: top;
+    align : right;
+}
+.margin {
+    margin-top: 0px;
+    margin-left: 22px;
+}
+
+.author-review {    
+    margin-top: 0px;
+    font-family: calibri;  
+    font-size: 17px; 
+}
+
+.rating {
+    margin-top: 12px;
+    font-family: calibri;    
+    color : rgb(0, 55, 76);
+    font-size: 20px;
+}
+
+button {
+    right: 51%;
+    width: 90px;
+    height: 30px;
+    padding: 0px;
+    font-size: 17px;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top:17px;
+    margin-left: 22px;
+}
+
+.back {
+    background: white;
+    color:rgb(217, 83, 79);
+    float:left;
+}
+
+.submit {
+    background: #2196F3;
+    color: white;
+    float: right;
+}
+
+
+a{
+    color           : yellow;
+    text-decoration : none;
+  }
+  
+  .starRating:not(old){
+    display        : inline-block;
+    height         : 1.5em;
+    overflow       : hidden;
+    vertical-align : bottom;
+    padding-top: -20px;
+  }
+
+  .star  {
+      margin-top: 0px;
+      margin-bottom: 20px;
+  }
+  
+  .starRating:not(old) > input{
+    margin-right : -100%;
+    opacity      : 0;
+  }
+  
+  .starRating:not(old) > label{
+    display         : block;
+    float           : right;
+    position        : relative;
+    background      : url('../../public/img/star-off1.png');
+    background-size : contain;
+  }
+  
+  .starRating:not(old) > label:before{
+    content         : '';
+    display         : block;
+    width           : 1.5em;
+    height          : 1.5em;
+    background      : url('../../public/img/star-on1.png');
+    background-size : contain;
+    opacity         : 0;
+    transition      : opacity 0.2s linear;
+  }
+  
+  .starRating:not(old) > label:hover:before,
+  .starRating:not(old) > label:hover ~ label:before,
+  .starRating:not(:hover) > :checked ~ label:before{
+    opacity : 1;
+  }
+  
+  body {
+    font-family: 'Varela Round', 'Open Sans';
+    font-size: 32px;
+    letter-spacing: 0px;
+}
+.starRate {
+    position: absolute;
+    /* margin: 0px; */
+    margin-right: 100px;
+    margin-block-end: 50%;
+    margin-block-start: -1.2%;
+}
+
+textarea {
+    -webkit-appearance: textarea;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    border: 1px solid grey;
+    padding: 2px;
+}

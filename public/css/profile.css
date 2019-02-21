@@ -1,0 +1,64 @@
+.frame {
+	position: relative;
+	width: 	45%;
+	margin: 	auto;
+}
+.avatar {
+		display: block;
+		margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 5px solid #f2d800;
+}
+
+.upperBox {	
+	background: #00374c;
+	position: 	relative;	
+}
+
+.logo {
+	float: left;
+	margin-right: 5pt;
+	width: 24px;
+}
+
+#profileTable {
+	margin-left: 	50px;
+}
+
+#edit-profile-logo {
+	position: 	absolute;	
+	top: 	15px;
+	right: 	15px;
+	width: 	30px;
+}
+
+.profile-header {
+	font-size: 20pt;
+	color: rgb(242,102,0);
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+h2 {
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 20pt;
+}
+
+td {
+	text-align: left;
+	font-size: 	11pt;
+}
+
+body {
+	margin-top: 0;
+}
+
+tr	{
+	height: 30px;
+}
